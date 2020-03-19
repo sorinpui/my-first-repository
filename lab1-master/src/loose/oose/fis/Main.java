@@ -11,6 +11,20 @@ import java.util.ArrayList;
 
 public class Main {
 
+    public class MyClass
+    {
+        private int attribute;
+        
+        public setAttribute(int a)
+        {
+            attribute = a;
+        }
+
+        public String toString()
+        {
+            return Integer.toString(attribute);
+        }
+    }
     public static void main(String[] args) {
 
         String[] xmlList = new String[6];
